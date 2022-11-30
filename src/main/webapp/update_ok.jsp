@@ -58,6 +58,6 @@
 	<a href="main.jsp">업데이트 완료완료완료</a>
 	<a href="main.jsp">메인 페이지로 가기</a> <br/><br/>
 	<a href="read.jsp">전체 결과 보기</a>
-	<h3>updateok sulin-1 branch가 수정함</h3>
+	<h3>update sulin-1 branch가 수정함</h3>
 </body>
 </html>
