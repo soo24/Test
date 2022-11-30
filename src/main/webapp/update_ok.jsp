@@ -55,7 +55,11 @@
 %>
 
 <body>
+<<<<<<< HEAD
 	<a href="main.jsp">업데이트 완료 완료 완료</a>
+=======
+	<a href="main.jsp">업데이트 완료완료완료</a>
+>>>>>>> refs/heads/sulin-1
 	<a href="main.jsp">메인 페이지로 가기</a> <br/><br/>
 	<a href="read.jsp">전체 결과 보기</a>
 </body>

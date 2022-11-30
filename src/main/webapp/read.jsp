@@ -70,5 +70,6 @@
 
 <body>
 	<a href="main.jsp">메인 페이지로 가기</a> <br/><br/>
+	<h3>read 수정</h3>
 </body>
 </html>
