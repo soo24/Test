@@ -34,10 +34,10 @@
 	MongoDatabase mongoDB = mongoClient.getDatabase(db);
 	MongoCollection<Document> c = mongoDB.getCollection(collection);
 	
-	System.out.println("read 연결 성공 ! port " + port + " /db " + db + " / collection " + collection);
+	System.out.println("read ! port " + port + " /db " + db + " / collection " + collection);
 	
 	FindIterable<Document> doc = find(mongoClient, mongoDB, c);
-	System.out.println("몇개인지 ? "  + c.count());
+	System.out.println("c.count "  + c.count());
 	//Iterator itr = doc.iterator();
 	
 	out.println("<table border='1' width = '200'>");
@@ -53,9 +53,6 @@
 				"<td> " + tmp.get("age") + "</td> " +
 				"<td> " + tmp.get("salary")  + "</td> "  +
 				"</tr> ");
-		//out.print(tmp.getString("name") + " <br/>");
-		//out.print(tmp.get("age") + " <br/>");
-		//out.print(tmp.get("salary") + " <br/>");
 		
 		
 	}
